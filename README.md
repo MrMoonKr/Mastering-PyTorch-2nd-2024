@@ -10,6 +10,7 @@
 
 ## 개발 및 테스트 환경
 
+- NVIDIA RTX 3060 12GB, CUDA 12.6
 - windows 11  
 - Python v3.12.0
 - pip v25.2
@@ -28,6 +29,9 @@
 ## 모듈
 
 - [ipykernel v6.30.1](https://pypi.org/project/ipykernel/)
+- [CUDA Tookit v12.6](https://developer.nvidia.com/cuda-12-6-0-download-archive)
+- [cuDNN v8.9.7](https://developer.nvidia.com/cuda-12-6-0-download-archive)
+- [CUDA Tookit v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 
 ## 사전 지식
 
