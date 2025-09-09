@@ -10,9 +10,9 @@
 
 ## 개발 및 테스트 환경
 
-- windows 10  
-- Python 3.12.0
-- pip 23.2.1
+- windows 11  
+- Python v3.12.0
+- pip v25.2
 - venv  
 - VS Code  
 - ...  
@@ -24,6 +24,10 @@
   $ (.venv-local) pip --version
   $ (.venv-local) pip install -r requirements.txt
   ```
+
+## 모듈
+
+- [ipykernel v6.30.1](https://pypi.org/project/ipykernel/)
 
 ## 사전 지식
 
