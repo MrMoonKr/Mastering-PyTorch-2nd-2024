@@ -1,49 +1,135 @@
 # 책 부록 소스 프로젝트 입니다
 
-직무 교육( OJT, On the job Training )을 위해서 클론 하였습니다.  
-책 관련 링크 입니다.  
+- 직무 교육( OJT, On the job Training )을 위해서 생성.  
+- 진행중( WIP, Work on Progress ).  
+  + ...
 
-- [Mastering PyTorch 2nd [ 원서 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=340789975)  
 
--  
+## 책 관련 링크  
+
+<img src="https://content.packt.com/_/image/original/B17446/cover_image.jpg?version=1753441244" alt="" height="256px" align="right">
+
+- [Mastering PyTorch 2nd [ 원서 ]](https://www.packtpub.com/en-au/product/mastering-pytorch-9781801074308)  
+
+- [마스터링 파이토치 2nd [ 번역서 없음 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=340789975)  
 
 
 ## 개발 및 테스트 환경
 
-- NVIDIA RTX 3060 12GB, CUDA 12.6
-- windows 11  
-- Python v3.12.0
-- pip v25.2
-- venv  
-- VS Code  
-- ...  
+- 시스템 ( Computer System )  
 
-  ```
-  $ python -m venv .venv-local
-  $ .venv-local/Scripts/Activate.ps1 
-  $ (.venv-local) python --version
-  $ (.venv-local) pip --version
-  $ (.venv-local) pip install -r requirements.txt
-  ```
+  - AMD Ryzen 9 7900X 12-Core Processor
+  - 32G RAM
+  - NVIDIA Geforce RTX 3060 12GB
+  - SSD 2TB
+  - Windows 11 64bit Korean
 
-## 모듈
+- 파이썬 ( Python 3.12 )  
 
-- [ipykernel v6.30.1](https://pypi.org/project/ipykernel/)
-- [CUDA Tookit v12.6](https://developer.nvidia.com/cuda-12-6-0-download-archive)
-- [cuDNN v8.9.7](https://developer.nvidia.com/cuda-12-6-0-download-archive)
-- [CUDA Tookit v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+  - [Python Download](https://www.python.org/downloads/)  
+    - [v3.12.0 for Windows](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)  
+    - [v3.11.9 for Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)  
 
-## 사전 지식
+- 에디터 ( Editor, Intergrated Development Environment )  
 
-- Python  
-- pip  
-- venv  
-- jypyter notebook  
-- ...  
+  - [VS Code](https://visualstudio.microsoft.com/ko/free-developer-offers/)  
+    - [Python Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
+      - Python Interpreter Chooser  
+      - Pylance  
+      - Python Debugger  
+      -  
+    - [Jupyter Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)  
+      - Jupyter Keymap  
+      - Jupyter Notebook Renderers  
+      - Jupyter Cell Tags  
+      - Jupyter Slide Show  
+      -  
+    - 
 
----
----
----
+- 패키지 매니저 ( Package Manager )
+  - [pypi](https://pypi.org/)  
+    - [검색](https://pypi.org/search/)  
+    - ...
+    ```
+    $ pip --version
+    $ pip --help
+    ```
+    ```
+    $ pip install numpy matplotlib scikit-learn
+    $ pip list
+    ```
+    ```
+    $ pip freeze > requirements.txt
+    $ pip install -r ./requirements.txt
+    ```
+
+- 소스관리  
+
+  - [Install Git](https://git-scm.com/downloads)
+    ```
+    $ git --version
+    ```
+  - [Install Tortoisgit](https://tortoisegit.org/download/)
+
+
+## 사용된 패키지 목록
+
+pytorch, matplotlib, scikit-learn, ...
+
+- PyTorch
+  - [pypi](https://pypi.org/project/torch/)  
+    ```
+    $ (.venv) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+    ```
+  - [PyTorch](https://pytorch.org/)  
+  - Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  - nvidia-smi v531.15
+  - cuda-toolkit v12.8
+
+- numpy
+  - [pypi](https://pypi.org/project/numpy/)  
+    ```
+    $ (.venv) pip install numpy
+    ```
+  - Fundamental Package for Array Computing in Python
+
+- matplotlib
+  - [pypi](https://pypi.org/project/matplotlib/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - Python Plotting Package
+
+- scikit-learn
+  - [pypi](https://pypi.org/project/scikit-learn/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - A set of python modules for machine learning and data mining
+
+- ipykernel
+  - [pypi](https://pypi.org/project/ipykernel/)  
+    ```
+    $ (.venv) pip install ipykernel
+    ```
+  - [ipykernel](https://github.com/ipython/ipykernel)  
+  - IPython Kernel for Jupyter
+
+- ...
+  - [pypi]()  
+    ```
+    $ (.venv) pip install ...
+    ```
+  - [...]()
+  - ...  
+
+
+## ...
+
+---  
+---  
+---  
+
 
 
 # Mastering PyTorch, Second Edition
